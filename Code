@@ -1,0 +1,55 @@
+"""
+@author: Ojas Goyal
+"""
+
+# Answer to Exercise 1
+a = 5
+b = 3.14
+
+print(a + b)
+
+# Answer to Exercise 2
+def tic_tac_toe(board):
+    for row in board:
+        print("|".join(row))
+        print("-" * 9)
+
+empty_board = [
+    [" ", " ", " "],
+    [" ", " ", " "],
+    [" ", " ", " "]
+]
+
+tic_tac_toe(empty_board)
+
+# Answer to Exercise 3
+str1 = "Arizona"
+str2 = " State"
+str3 = " University"
+
+result_string = str1 + str2 + str3
+
+print(result_string)
+
+# Answer to Exercise 4
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Answer to Exercise 5
+import math
+
+q = (3*5)/(2+3)
+print('q = ',q)
+
+w = math.sqrt(7+9*2)
+print('w = ',w)
+
+e = (4-7)**3
+print('e = ',e)
+
+r = math.pow(-19+100,1/4)
+print('r = ',r)
+
+t = 6 % 4
+print('t = ',t)
